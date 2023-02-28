@@ -1,0 +1,58 @@
+/* Author: Addison Farley
+Date: 11/15/2022
+Class: SDEV 117
+File Name: styles.css
+File Description: Dataset Assignment CSS page */
+
+/* layout logic */
+body {
+    display: grid;
+    width: 900px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    background: url("images/coffee.png");
+    background-size: cover;
+    margin-top: 5%;
+    font-family: Helvetica;
+}
+
+/* your styles go here... */
+main {
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: white;
+}
+
+main>div {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+main>p, h1 {
+    padding: 5px;
+}
+
+aside {
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+section>label {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    height: 25px;
+    width: 75px;
+}

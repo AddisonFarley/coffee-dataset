@@ -1,0 +1,74 @@
+<!-- Author: Addison Farley
+Date: 11/15/2022
+Class: SDEV 117
+File Name: show_data.html
+File Description: Dataset Assignment HTML page -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Coffee</title>
+
+        <!-- styles for the page... -->
+        <link rel="stylesheet" href="styles/styles.css">
+
+        <!-- reference the script with your JS array here... -->
+        <script src="scripts/dataset.js"></script>
+    </head>
+    <body>
+        <main id="left-column">
+            <h1>Coffee Dataset</h1>
+            <p>Coffee Quality Ratings by the Coffee Quality Institute. There are <span id="datasetLength"></span> 
+                unique coffee beans analyzed in this dataset.</p>
+            <div>
+                <section>
+                    <label>Country:</label>
+                    <span id="countryVal">Value</span>
+                </section>
+                <section>
+                    <label>Region:</label>
+                    <span id="regionVal">Value</span>
+                </section>
+                <section>
+                    <label>Owner:</label>
+                    <span id="ownerVal">Value</span>
+                </section>
+                <section>
+                    <label>Average Altitude:</label>
+                    <span id="altitudeVal">Value</span>
+                </section>
+                <section>
+                    <label>Species:</label>
+                    <span id="speciesVal">Value</span>
+                </section>
+                <section>
+                    <label>Total Score:</label>
+                    <span id="scoreVal">Value</span>
+                </section>
+
+                <section>
+                    <button id="previous">Previous</button>
+                    <button id="next">Next</button>
+                </section>
+            </div>
+        </main>
+        <aside id="right-column">
+            <h2>Here are some interesting facts in my dataset!</h2>
+            <ul>
+                <li>
+                    <span id="averageScore"></span>
+                </li>
+                <li>
+                    <span id="highestScore"></span>
+                </li>
+                <li>
+                    <span id="lowestScore"></span>
+                </li>
+            </ul>
+        </aside>
+        <!-- reference the script with program behavior here... -->
+        <script src="scripts/program_behavior.js"></script>
+    </body>
+</html>
+
